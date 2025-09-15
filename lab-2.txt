@@ -15,7 +15,7 @@ concepts of client and server. In your explanation, make sure to mention:
 • How Bob’s browser requests the repository content: Bob’s browser sends an HTTP GET request over the internet to GitHub’s server after resolving the GitHub URL to an IP address using DNS.
 • How the server responds and sends the content back to Bob: GitHub’s server processes the request, then sends back an HTTP response containing the web page’s content (like HTML, CSS, and repository data), which the browser displays to Bob.
 
-
+Post-Lab Questions
 1. What is the difference between HTTP and HTTPS?
 HTTP (HyperText Transfer Protocol) is the standard protocol for transferring data on the web, but it is not secure.
 HTTPS (HTTP Secure) does the same job but adds encryption using SSL/TLS, making the data exchange secure and private. HTTPS protects against eavesdropping and tampering.
@@ -40,3 +40,4 @@ A URL includes a protocol (like http:// or https://) and a domain name (like exa
 A pathname is just a local file path and does not include a domain or protocol.
 URL example: https://example.com/images/photo.jpg
 Pathname example: /images/photo.jpg or C:\Users\Bob\Documents\file.txt
+
