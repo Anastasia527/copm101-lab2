@@ -2,3 +2,41 @@ My name is Anastasia Piciriga. I am 19 years old, and I have lived in Canada for
 I am originally from a small country in Europe, Moldova, which is right next to Ukraine. I moved here when I was 2, lived here for a year, moved back to Moldova when I was 3, and then moved back when I was 5 years old. So, I officially started living here when I was 5.
 I know six languages, and I love to travel and see the beauty of the world. I live with my family and two pets—Mira (my dog) and Bella (my cat).
 I've always been interested in design and drawing, and I've always thought of myself as creative.
+
+
+
+Question: 
+You have created a GitHub repository and want to share it with your friend Bob by 
+sending him the repository link. When Bob clicks the link in his web browser, some 
+communication happens over the internet. Explain step by step what happens using the 
+concepts of client and server. In your explanation, make sure to mention:
+• Which device acts as the client: Bob's device (computer/phone).
+• Which device acts as the server: GitHub's remote servers.
+• How Bob’s browser requests the repository content: Bob’s browser sends an HTTP GET request over the internet to GitHub’s server after resolving the GitHub URL to an IP address using DNS.
+• How the server responds and sends the content back to Bob: GitHub’s server processes the request, then sends back an HTTP response containing the web page’s content (like HTML, CSS, and repository data), which the browser displays to Bob.
+
+
+1. What is the difference between HTTP and HTTPS?
+HTTP (HyperText Transfer Protocol) is the standard protocol for transferring data on the web, but it is not secure.
+HTTPS (HTTP Secure) does the same job but adds encryption using SSL/TLS, making the data exchange secure and private. HTTPS protects against eavesdropping and tampering.
+2. Explain how DNS and IP work together to enable communication over the Internet.
+DNS (Domain Name System) translates human-readable domain names (like github.com) into IP addresses (like 140.82.114.3).
+The IP address tells computers where to find the server hosting the website, allowing devices to communicate over the Internet.
+3. What is a URL? What are the different parts of a URL?
+A URL (Uniform Resource Locator) is the full web address used to access resources online.
+Parts of a URL:
+Protocol: https://
+Domain name: www.example.com
+Path: /folder/page.html
+(Optional) Query string: ?id=123
+(Optional) Fragment: #section2
+Example:
+https://www.example.com/folder/page.html?id=123#section2
+4. How are URLs used on the Internet?
+URLs are used to locate and access resources (like web pages, images, files) on the Internet. When you enter a URL in a browser, it sends a request to the server hosting that resource, and the server responds with the content.
+5. How can you recognize whether something is a pathname or a URL? (I.e., what is visibly different 
+about them?)
+A URL includes a protocol (like http:// or https://) and a domain name (like example.com).
+A pathname is just a local file path and does not include a domain or protocol.
+URL example: https://example.com/images/photo.jpg
+Pathname example: /images/photo.jpg or C:\Users\Bob\Documents\file.txt
