@@ -1,0 +1,111 @@
+/* General page styles */
+body {
+  background-color: lightyellow;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+/* Main headings */
+h1 {
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Subheadings */
+h2 {
+  color: darkgreen;
+  border-bottom: 2px solid darkgreen;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+/* Paragraphs */
+p {
+  color: blue;
+  font-size: 18px;
+  font-style: italic;
+  background-color: #fff8dc; /* subtle light background */
+  padding: 10px;
+  border-left: 4px solid blue;
+}
+
+/* Unordered list */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+/* Ordered list */
+ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+ol li {
+  margin-bottom: 5px;
+}
+
+/* Links */
+a {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: darkgreen;
+}
+
+/* Images */
+img {
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Form section */
+form {
+  margin-top: 30px;
+  padding: 15px;
+  background-color: #f0f8ff;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Submit button */
+input[type="submit"] {
+  background-color: darkgreen;
+  color: white;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: green;
+}
